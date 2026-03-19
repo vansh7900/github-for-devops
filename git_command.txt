@@ -1,0 +1,11 @@
+git config --global user.email "email" //configure your email for githhub
+git config --global user.name "username"  //configure your username for github
+ls -l    //list details
+git init  //initialize Repo
+git add filename  //add the file to staging area
+git add .  //add the full folder to staging area 
+git status  //show the status of being tracked or untracked 
+git commit -m "message"  //add the file to Vcs tracking area
+git restore filename    //restore your file form staging after deleting it 
+rm -r filename   //delete file from the status
+git rm --cache testing.py  //remove the file from staging area 
