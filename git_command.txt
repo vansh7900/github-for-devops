@@ -9,3 +9,4 @@ git commit -m "message"  //add the file to Vcs tracking area
 git restore filename    //restore your file form staging after deleting it 
 rm -r filename   //delete file from the status
 git rm --cache testing.py  //remove the file from staging area 
+this is a new changes
